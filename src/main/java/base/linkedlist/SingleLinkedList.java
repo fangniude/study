@@ -109,8 +109,8 @@ public class SingleLinkedList {
 
 
     public static class SingleNode {
-        int val;
-        SingleNode next;
+        public int val;
+        public SingleNode next;
 
         public SingleNode(int val, SingleNode next) {
             this.val = val;
